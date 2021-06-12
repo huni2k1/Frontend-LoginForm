@@ -1,0 +1,42 @@
+body{
+	background-image: url("loginbg.jpg") ;
+    background-repeat: repeat;
+    background-size:100%;
+}
+#invalid-input{
+    display: none;
+}
+.Log-in-block{
+    margin-top:15%;
+    border-radius: 11px;
+}
+.registration-block{
+    border-radius: 11px;
+
+}
+.Log-in-title{
+    font-size: 30px;
+}
+.warning{
+    color:rgb(238, 77, 77);
+    display: none;
+}
+#sign-up-button{
+    text-decoration: none;
+    color:rgb(41, 166, 250) ;
+}
+#forgotbutton {
+    text-decoration: none;
+    color:rgb(41, 166, 250) ;
+}
+#forgotbutton:hover{
+    text-decoration: underline;
+}
+#login-window{
+    display:flex;
+}
+#registration-window{
+    display:none;
+    margin-top:10%;
+}
+
